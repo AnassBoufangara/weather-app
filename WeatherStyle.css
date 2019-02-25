@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #393f4d;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+.Container {
+	width: 100%;
+	height: 100%;
+	background-color: #393f4d;
+}
+
+canvas {
+	width: 100%;
+}
+
+.topbar {
+	width: 100%;
+	padding: 1rem;
+}
+.topbar:after {
+	content: "";
+	display: table;
+	font-weight: normal;
+	font-family: Arial;
+	clear: both;
+}
+form {
+	margin: 0;
+	padding: 0;
+	float: right;
+	background-color: transparent;
+}
+
+input, button{
+	display: inline;
+	padding: .5rem;
+	font-size: 1.5rem;
+	font-family: inherit;
+	font-weight: inherit;
+
+}
+input {
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	background-color: white;
+	color: grey;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #7dce94;
+	color: white;
+	height: 100%;
+}
+button i{
+	background-color: transparent;
+}
+
+header { 
+	width: 100%;
+	padding-top: 4rem;
+	text-align: center;
+}
+header h1, .Info{
+	font-family: 'Courier New';
+	font-weight: normal;
+	color: white;
+
+}
+header h1 {
+	font-size: 10rem;
+}
+
+header h4, .Info {
+	color: #8e8e90;
+}
+
+
+ul {
+	width: 100%;
+	margin: 3rem 1rem;
+	text-align: center;
+}
+
+li {
+	float: left;
+	width: 25%;
+	list-style-type: none;
+	padding: 1rem;
+}
+
+li i, li span {
+	display: block;
+	padding-bottom: 1rem;
+	color: white;
+	font-family: Courier;
+	font-weight: normal;
+	font-weight: bold;
+
+}
+
+li i{
+	font-size: 6rem;
+}
+li i{
+	font-size: 5rem;
+}
+
+section {
+	content: "";
+	display: table;
+	font-weight: normal;
+	font-family: Arial;
+	clear: both;
+}
+
+footer {
+	width: 100%;
+	padding: 2rem;
+	text-align: center;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charest="UTF-8">
+	<link rel="stylesheet" type="text/css" href="WeatherStyle.css">
+	<link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<title></title>
+
+</head>
+<body>
+	<div class="Container">
+		<div class="topbar">
+			<form>
+				<input type="text" placeholder="Search City...">
+				<button type="submit" class="btn-search">
+					<i class="fas fa-search"></i>
+				</button>
+			</form>
+		</div>
+
+		<header>
+			<h1 class="time"> 11 12 53 </h1>
+			<h4 id="infoDate" class="Info">Sunday, octobar 27</h4>
+			<h4 id="infoLocation" class="Info"> <i></i> San Francisco, CA</h4>
+		</header>
+
+		<section>
+			<ul id="WeadValue">
+				<li>
+					<canvas id="canv1"></canvas>
+					<span></span>
+					<span> 35 F</span>
+					<span> 35 F</span>
+					<span> Now </span>
+				</li>
+
+				<li>
+					<canvas id="canv2"></canvas>
+					<span></span>	
+					<span> 35 F</span>
+					<span> 35 F</span>
+					<span> 35 F</span>
+				</li>
+
+				<li>
+					<canvas id="canv3"></canvas>
+					<span></span>
+					<span> 35 F</span>
+					<span> 35 F</span>
+					<span> 35 F</span>
+				</li>
+
+				<li>
+					<canvas id="canv4"></canvas>
+					<span></span>
+					<span> 35 F</span>
+					<span> 35 F</span>
+					<span> 35 F</span>
+				</li>
+			</ul>
+		</section>
+	</div>
+</body>
+<script type="text/javascript" src="Icons/skycons-master/skycons.js"></script>
+<script type="text/javascript" src="node_modules/moment/moment.js"></script>
+<script type="text/javascript" src="node_modules/moment-timezone/moment-timezone.js"></script>
+<script type="text/javascript" src="WeatherScript.js"></script>
+</html>
+
+
+<!--<li>
+	<canvas id="canv5"></canvas>
+	<span> 35 F</span>
+	<span> 35 F</span>
+	<span> 35 F</span>
+</li>-->
